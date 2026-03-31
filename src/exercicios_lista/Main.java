@@ -14,12 +14,13 @@ public class Main {
 		
 		System.out.println("Quantas Pessaos Deseja Adicionar? ");
 		Integer n = sc.nextInt();
-		sc.next();
+		sc.nextLine();
 		
-		for (int i=1; i<n;i++)
+		for (int i=0; i<n;i++)
 		{
 			System.out.println("Digite o ID");
 			int id = sc.nextInt();
+			sc.nextLine();
 			
 			System.out.println("Nome");
 			String nome = sc.nextLine();
@@ -30,6 +31,10 @@ public class Main {
 			Entidades enti = new Entidades(id, nome, null);
 			list.add(enti);
 			
+		}
+		for (Entidades x: list)
+		{
+			System.out.println(list);
 		}
 		
 		System.out.println("Qual a Porcentagem que Deseja Aumentar?");
