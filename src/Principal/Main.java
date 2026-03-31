@@ -20,7 +20,7 @@ public class Main {
 	    	System.out.println("Nome do Funcionário");
 	    	String name = sc.nextLine();
 	    	
-	    	///123
+	    	///1
 	    	System.out.println("Salario");
 	    	double monay = sc.nextDouble();
 	    	sc.nextLine();
