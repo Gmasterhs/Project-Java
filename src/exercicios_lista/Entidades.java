@@ -31,16 +31,29 @@ public class Entidades
 	
 	public Entidades(int id, String name, Double salary) 
 	{
-		Id = id;
+		this.Id = id;
 		this.name = name;
 		this.salary = salary;
 	}
 	
-	// Metodos
-	
-	public static void aumentoSalario()
+	public Entidades() 
 	{
 		
+	}
+	
+	// Metodos
+	
+	public void aumentoSalario(double porcentagem)
+	{
+		this.salary += this.salary * porcentagem / 100.0;
+	}
+	
+	@Override
+	public String toString() 
+	{
+	    return "ID: " + this.Id 
+	         + ", Nome: " + this.name 
+	         + ", Salário: " + String.format("%.2f", salary);
 	}
 	
 	

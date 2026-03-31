@@ -28,16 +28,29 @@ public class Main {
 			System.out.println("Salario");
 			double salario = sc.nextDouble();
 			
-			Entidades enti = new Entidades(id, nome, null);
+			Entidades enti = new Entidades(id, nome, salario);
 			list.add(enti);
 			
 		}
 		for (Entidades x: list)
 		{
-			System.out.println(list);
+			System.out.println(x);
 		}
 		
-		System.out.println("Qual a Porcentagem que Deseja Aumentar?");
+		System.out.println("Digite o ID");
+		int idBusca = sc.nextInt();
+		
+		Entidades comparacao = list.stream().filter(x -> x.getId() == idBusca).findFirst().orElse(null);
+		if (comparacao != null)
+		{
+			System.out.println("Digite e Procentagem de Aumento");
+			double aumento = sc.nextDouble();
+			comparacao.aumentoSalario(aumento);
+			System.out.println("Novo Valor: " + comparacao.getSalary());
+		}
+				
+		
+		
 		
 	sc.close();	
 	}
