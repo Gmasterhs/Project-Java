@@ -59,7 +59,11 @@ public class Main {
 		   }
 		}
 				
-		
+		System.out.println();
+		System.out.println("Lista de funcionários:");
+		for (Entidades obj : list) {
+		    System.out.println(obj);
+		}
 		
 		
 	sc.close();	
