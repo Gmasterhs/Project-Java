@@ -2,7 +2,7 @@ package exercicios_lista;
 
 public class Entidades 
 {
-	private int Id;
+	private Integer Id;
 	private String name;
 	private Double salary;
 	
