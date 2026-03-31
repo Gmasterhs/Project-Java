@@ -36,17 +36,27 @@ public class Main {
 		{
 			System.out.println(x);
 		}
+		System.out.println("Deseja Fazer uma Operação de Aumento do salario?: ");
+		System.out.println("Digite Yes ou No");
+		sc.nextLine();
+		String op = sc.nextLine();
 		
-		System.out.println("Digite o ID");
-		int idBusca = sc.nextInt();
 		
-		Entidades comparacao = list.stream().filter(x -> x.getId() == idBusca).findFirst().orElse(null);
-		if (comparacao != null)
+		if (op.equalsIgnoreCase("Yes"))
 		{
-			System.out.println("Digite e Procentagem de Aumento");
-			double aumento = sc.nextDouble();
-			comparacao.aumentoSalario(aumento);
-			System.out.println("Novo Valor: " + comparacao.getSalary());
+			System.out.println("Digite o ID");
+			int idBusca = sc.nextInt();
+		
+		
+		
+		   Entidades comparacao = list.stream().filter(x -> x.getId() == idBusca).findFirst().orElse(null);
+		   if (comparacao != null)
+		   {
+			 System.out.println("Digite e Procentagem de Aumento");
+			 double aumento = sc.nextDouble();
+			 comparacao.aumentoSalario(aumento);
+			 System.out.println("Novo Valor: " + comparacao.getSalary());
+		   }
 		}
 				
 		
