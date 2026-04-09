@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Data Hora 2">
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercício de Data e Hora finalizad">
+      <change afterPath="$PROJECT_DIR$/src/exercicios_Enumeracao/Entities/Enum/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios_Enumeracao/Entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios_Enumeracao/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio_DataHora/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_DataHora/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +43,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3BjM9vEMO3jHWJuWj22pS84sUtZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -103,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775523581449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercício de Data e Hora finalizad">
+      <option name="closed" value="true" />
+      <created>1775691552781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775691552781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +139,7 @@
     <MESSAGE value="Exercicio Matriz" />
     <MESSAGE value="Exercicio Data Hora" />
     <MESSAGE value="Exercicio Data Hora 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Data Hora 2" />
+    <MESSAGE value="Exercício de Data e Hora finalizad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício de Data e Hora finalizad" />
   </component>
 </project>
