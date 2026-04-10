@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Enum">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/HourContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/enums/WorkerLevel.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Worker 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/HourContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/HourContract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775695614945</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exercicio Worker 01">
+      <option name="closed" value="true" />
+      <created>1775782207352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775782207352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +157,7 @@
     <MESSAGE value="Exercicio Data Hora 2" />
     <MESSAGE value="Exercício de Data e Hora finalizad" />
     <MESSAGE value="Exercicio Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Enum" />
+    <MESSAGE value="Exercicio Worker 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Worker 01" />
   </component>
 </project>
