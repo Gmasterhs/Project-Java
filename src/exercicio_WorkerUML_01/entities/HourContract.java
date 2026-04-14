@@ -33,4 +33,5 @@ public class HourContract   //Contrato por Hora
     {
         return valuePerHur * hours;
     }
+
 }

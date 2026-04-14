@@ -1,6 +1,6 @@
 package exercicio_WorkerUML_01.entities;
 
-public class Department
+public class  Department
 {
     private String name;
     public Department(String name) {
