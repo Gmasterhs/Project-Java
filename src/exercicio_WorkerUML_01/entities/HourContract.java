@@ -13,10 +13,12 @@ public class HourContract   //Contrato por Hora
     public HourContract() {
 
     }
-    public HourContract(LocalDate date) {
-        this.date = date;
-    }
 
+    public HourContract(LocalDate date, Double valuePerHur, Integer hours) {
+        this.date = date;
+        this.valuePerHur = valuePerHur;
+        this.hours = hours;
+    }
     //Getsrs and Setters
 
     public LocalDate getDate() {

@@ -85,7 +85,7 @@ public class Worker
         for (HourContract c : contracts)
         {
             int c_year = c.getDate().getYear();
-            int c_month = c.getDate().lengthOfMonth();
+            int c_month = c.getDate().getMonthValue();
             if (c_year == yeah && c_month == month)
             {
                 sum += c.totalVolue();
