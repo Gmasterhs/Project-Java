@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Perto de Concluir Exercicio Worker">
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Finalizado Worker">
+      <change afterPath="$PROJECT_DIR$/src/exercicio_PedidoComposition/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_PedidoComposition/entities/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_PedidoComposition/entities/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_PedidoComposition/entities/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_PedidoComposition/entities/enums/statusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_PedidoComposition/entities/itemPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/HourContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/HourContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_WorkerUML_01/entities/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -142,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776211787018</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finalizado Worker">
+      <option name="closed" value="true" />
+      <created>1776219444356</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776219444357</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +179,7 @@
     <MESSAGE value="Exercicio Enum" />
     <MESSAGE value="Exercicio Worker 01" />
     <MESSAGE value="Perto de Concluir Exercicio Worker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Perto de Concluir Exercicio Worker" />
+    <MESSAGE value="Finalizado Worker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizado Worker" />
   </component>
 </project>
