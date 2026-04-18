@@ -9,7 +9,7 @@ import java.util.List;
 public class Pedido
 {
     private LocalDateTime momento;
-    private statusPedido stattus;
+    private statusPedido status;
 
     //Composição
 
@@ -27,11 +27,11 @@ public class Pedido
     }
 
     public statusPedido getStattus() {
-        return stattus;
+        return status;
     }
 
-    public void setStattus(statusPedido stattus) {
-        this.stattus = stattus;
+    public void setStattus(statusPedido status) {
+        this.status = status;
     }
 
     public Cliente getCliente() {
@@ -47,9 +47,10 @@ public class Pedido
     public Pedido() {
     }
 
-    public Pedido(LocalDateTime momento, statusPedido stattus, Cliente cliente) {
+    public Pedido(LocalDateTime momento, statusPedido status, Cliente cliente)
+    {
         this.momento = momento;
-        this.stattus = stattus;
+        this.status = status;
         this.cliente = cliente;
     }
 
