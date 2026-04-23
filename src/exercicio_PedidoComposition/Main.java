@@ -58,6 +58,7 @@ public class Main
             itemPedido item = new itemPedido(quantidade, preco, produto);
             pedido.addItem(item);
 
+            System.out.println(pedido);
         }
 
 

@@ -37,6 +37,11 @@ public class itemPedido {
 
     //Construtores
 
+    public itemPedido()
+    {
+
+    }
+
     public itemPedido(Integer quantidade, Double preco, Produto produto) {
         this.quantidade = quantidade;
         this.preco = preco;
