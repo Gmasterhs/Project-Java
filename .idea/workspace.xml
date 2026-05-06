@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Item Pedido Finalizado">
-      <change afterPath="$PROJECT_DIR$/src/exercicio_Funcionario/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_Funcionario/entities/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_Funcionario/entities/OutsourcedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercico_Herança/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercico_Herança/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercico_Herança/contaPremiun.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Trabalhador">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio_Funcionario/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_Funcionario/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776904199755</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exercicio Trabalhador">
+      <option name="closed" value="true" />
+      <created>1777944748176</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777944748176</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +210,7 @@
     <MESSAGE value="Exercicio Composição 2 Cliente" />
     <MESSAGE value="Requerimento Finalizado Falta o Print" />
     <MESSAGE value="Item Pedido Finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Item Pedido Finalizado" />
+    <MESSAGE value="Exercicio Trabalhador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Trabalhador" />
   </component>
 </project>
