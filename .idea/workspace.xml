@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Trabalhador finalizado">
-      <change afterPath="$PROJECT_DIR$/src/exercicio_ComercioImportacao/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_ComercioImportacao/entities/ImportedProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_ComercioImportacao/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_ComercioImportacao/entities/UsedProduct.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Trabalhador">
+      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/TaxPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Gmasterhs/Project-Java.git&quot;,
-    &quot;accountId&quot;: &quot;a3579117-9dc3-4ef5-8072-5a7f903773a9&quot;
+    &quot;accountId&quot;: &quot;2d0748df-fdc4-4172-ab7d-b8afbda2b1ae&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -183,15 +183,7 @@
       <option name="project" value="LOCAL" />
       <updated>1777944748176</updated>
     </task>
-    <task id="LOCAL-00014" summary="Exercicio Trabalhador finalizado">
-      <option name="closed" value="true" />
-      <created>1778031546514</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1778031546514</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +214,6 @@
     <MESSAGE value="Requerimento Finalizado Falta o Print" />
     <MESSAGE value="Item Pedido Finalizado" />
     <MESSAGE value="Exercicio Trabalhador" />
-    <MESSAGE value="Exercicio Trabalhador finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Trabalhador finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Trabalhador" />
   </component>
 </project>
