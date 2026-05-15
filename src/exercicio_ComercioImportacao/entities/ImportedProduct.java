@@ -29,7 +29,7 @@ public class ImportedProduct extends Product
     @Override
     public String priceTag() {
         return super.priceTag()
-                + "Tax: "
+                + " Tax: "
                 +String.format("%.2f", customsFee)
                 + totalPrice();
     }

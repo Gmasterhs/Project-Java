@@ -6,6 +6,8 @@ import exercicio_ComercioImportacao.entities.UsedProduct;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -17,13 +19,15 @@ public class Main
         Scanner sc = new Scanner(System.in);
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyy");
 
+        List <Product> list = new ArrayList();
+
         System.out.println("Enter The Number of Product: ");
         int n = sc.nextInt();
         sc.nextLine();
 
         for (int i = 0; i < n; i++)
         {
-            System.out.println("Product # + " + i  + 1 + " Data: ");
+            System.out.println("Product # + " + i + " Data: ");
             System.out.println("Cammon, Used or Imported (c/u/i)");
             char esc = sc.next().charAt(0);
             sc.nextLine();
@@ -39,6 +43,8 @@ public class Main
 
                 Product product = new UsedProduct(name,price,dateFormater);
 
+                list.add(product);
+
             } else if (esc == 'i')
             {
                 System.out.println("Customs Fee: ");
@@ -46,15 +52,17 @@ public class Main
 
                 Product product = new ImportedProduct(name,price,customeFee);
 
+                list.add(product);
+
             }
 
             Product product = new Product(name,price);
+            list.add(product);
         }
 
-        for (int i = 0; i < n; i++)
+        for (Product prod : list)
         {
-            Product product = new Product();
-            product.
+            System.out.println(prod.priceTag());
         }
 
 
