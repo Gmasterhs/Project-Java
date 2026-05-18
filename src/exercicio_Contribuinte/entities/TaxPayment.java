@@ -1,6 +1,6 @@
 package exercicio_Contribuinte.entities;
 
-public class TaxPayment
+public abstract class TaxPayment
 {
     // Gettrs and Setters
 
@@ -25,9 +25,13 @@ public class TaxPayment
 
     //Constructors
 
-    public TaxPayment(String name, Double anualIncome) {
+    public  TaxPayment(String name, Double anualIncome) {
         this.name = name;
         this.anualIncome = anualIncome;
     }
+
+    public abstract Double tax();
+
+
 
 }

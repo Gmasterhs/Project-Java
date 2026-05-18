@@ -1,4 +1,6 @@
 package exercicio_Contribuinte.entities;
 
-public class Individual {
+public class Individual
+{
+
 }

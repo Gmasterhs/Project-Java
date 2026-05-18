@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Trabalhador">
-      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/Individual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/TaxPayment.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="feat: initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/TaxPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_Contribuinte/entities/TaxPayment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
