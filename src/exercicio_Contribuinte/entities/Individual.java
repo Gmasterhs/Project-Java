@@ -28,19 +28,15 @@ public class Individual extends TaxPayment
     @Override
     public Double tax()
     {
-        double imp;
-        if (healthExpenditure <= 20000.0)
+        double basicTax = (getAnualIncome() < 20000.00) ? getAnualIncome() * 0.15 : getAnualIncome() * 0.25;
+        double rebate = healthExpenditure * 0.5;
+        double finalTax = basicTax - rebate;
+
+        if (finalTax < 0)
         {
-            imp = getAnualIncome() * 0.15;
+            return  0.0;
+        } else {
+            return finalTax;
         }
-        else
-        {
-            imp =  getAnualIncome() * 0.25;
-        }
-
-        double res = imp - (healthExpenditure * 0.5);
-        return  res;
-
-
     }
 }

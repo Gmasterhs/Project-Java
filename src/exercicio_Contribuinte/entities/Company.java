@@ -24,16 +24,13 @@ public class Company extends TaxPayment
 
     //Methods
 
-
     @Override
     public Double tax() {
-        if (namberOfEmployees <= 9) {
-            return (getAnualIncome() * 0.16);
-
-        }
-        else
-        {
+        if (namberOfEmployees > 10) {
             return (getAnualIncome() * 0.14);
+        }
+        else {
+            return (getAnualIncome() * 0.16);
         }
 
     }
