@@ -1,6 +1,6 @@
 package exercicio_SistemaCombate.entities;
 
-public class Melee extends Character
+public class Melee extends Caracter
 {
     private Double weaponBonus;
 

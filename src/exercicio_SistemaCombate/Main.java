@@ -1,5 +1,10 @@
 package exercicio_SistemaCombate;
 
+import exercicio_SistemaCombate.entities.Caracter;
+import exercicio_SistemaCombate.entities.Melee;
+import exercicio_SistemaCombate.entities.Mystic;
+
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -12,7 +17,7 @@ public class Main
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        List <Character> list = new ArrayList<>();
+        List <Caracter> list = new ArrayList<>();
 
         System.out.println("Enter the number of characters: ");
         int n = sc.nextInt();
@@ -26,11 +31,33 @@ public class Main
 
             System.out.println("Name: ");
             String name = sc.nextLine();
+            System.out.println("Level: ");
+            int level = sc.nextInt();
+            System.out.println("Base Strength: ");
+            double baseStrength = sc.nextDouble();
 
-
-            if (op == 'm') {
-                System.out.println("Weapon Bonus:");
+            if (op == 'f') {
+                System.out.println("Focus Bonus:");
+                double focus = sc.nextDouble();
+                Melee melee = new Melee(name, level, baseStrength, focus);
+                list.add(melee);
             }
+            else if (op == 'm') {
+                System.out.println("Weapon Bonus:");
+                double weappon = sc.nextDouble();
+                Mystic mysic = new Mystic(name, level, baseStrength,weappon);
+                list.add(mysic);
+
+                System.out.print("DAMAGE REPORT");
+
+                for (Caracter x : list)
+                {
+
+                }
+
+            }
+
+
 
         }
 

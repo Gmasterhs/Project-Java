@@ -1,6 +1,6 @@
 package exercicio_SistemaCombate.entities;
 
-public abstract class Character
+public abstract class Caracter
 {
     private String name;
     private Integer level;
@@ -34,7 +34,7 @@ public abstract class Character
 
      //Constructor
 
-    public Character(String name, Integer level, Double baseStrength) {
+    public Caracter(String name, Integer level, Double baseStrength) {
         this.name = name;
         this.level = level;
         this.baseStrength = baseStrength;

@@ -1,6 +1,6 @@
 package exercicio_SistemaCombate.entities;
 
-public class Mystic extends Character
+public class Mystic extends Caracter
 {
     private Double focusBonus;
 
