@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Feart: SpaceRent">
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Update: SpaceRent 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceRent/entities/DailyRent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceRent/entities/DailyRent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceRent/entities/LongTermRent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceRent/entities/LongTermRent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceRent/entities/RentContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceRent/entities/RentContract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779458053435</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update: SpaceRent 1.0">
+      <option name="closed" value="true" />
+      <created>1779461843240</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1779461843240</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +248,7 @@
     <MESSAGE value="feat - Sistema de Combate" />
     <MESSAGE value="Finish SistemaCombate" />
     <MESSAGE value="Feart: SpaceRent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feart: SpaceRent" />
+    <MESSAGE value="Update: SpaceRent 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: SpaceRent 1.0" />
   </component>
 </project>
