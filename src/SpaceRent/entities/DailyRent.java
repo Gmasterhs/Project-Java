@@ -2,6 +2,7 @@ package SpaceRent.entities;
 
 import SpaceRent.entities.enums.ContractStatus;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class DailyRent extends RentContract
@@ -21,7 +22,7 @@ public class DailyRent extends RentContract
 
     // Constructor
 
-    public DailyRent(String cliente, LocalDateTime startDateTime, ContractStatus status, Double daysCount) {
+    public DailyRent(String cliente, LocalDate startDateTime, ContractStatus status, Double daysCount) {
         super(cliente, startDateTime, status);
         this.daysCount = daysCount;
     }
@@ -31,6 +32,12 @@ public class DailyRent extends RentContract
     @Override
     public Double totalValue()
     {
-        return daysCount * 50;
+        double voluebase = daysCount * 70;
+
+        if (getStatus() == ContractStatus.PREMIUM)
+        {
+            return voluebase * 0.90;
+        }
+        return voluebase;
     }
 }

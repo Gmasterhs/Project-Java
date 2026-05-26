@@ -22,8 +22,7 @@ public class LongTermRent extends RentContract
 
     //Constructor
 
-    public LongTermRent(String cliente, LocalDateTime startDateTime, ContractStatus status, LocalDate endDate)
-    {
+    public LongTermRent(String cliente, LocalDate startDateTime, ContractStatus status, LocalDate endDate) {
         super(cliente, startDateTime, status);
         this.endDate = endDate;
     }
@@ -34,6 +33,12 @@ public class LongTermRent extends RentContract
     public Double totalValue()
     {
         double totalDays = ChronoUnit.DAYS.between(getStartDateTime(), endDate) + 1;
-        return totalDays * 50.00;
+        double voluebase = totalDays * 50.00;
+
+        if (getStatus() == ContractStatus.PREMIUM)
+        {
+            return voluebase * 0.90;
+        }
+        return voluebase;
     }
 }

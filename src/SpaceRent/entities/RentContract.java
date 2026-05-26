@@ -2,13 +2,16 @@ package SpaceRent.entities;
 
 import SpaceRent.entities.enums.ContractStatus;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public abstract class RentContract
 {
     private String cliente;
-    private LocalDateTime startDateTime;
+    private LocalDate startDateTime;
+
     private ContractStatus status;
+
 
     // Getters and Setters
 
@@ -20,11 +23,11 @@ public abstract class RentContract
         this.cliente = cliente;
     }
 
-    public LocalDateTime getStartDateTime() {
+    public LocalDate getStartDateTime() {
         return startDateTime;
     }
 
-    public void setStartDateTime(LocalDateTime startDateTime) {
+    public void setStartDateTime(LocalDate startDateTime) {
         this.startDateTime = startDateTime;
     }
 
@@ -38,7 +41,7 @@ public abstract class RentContract
 
     // Constructor
 
-    public RentContract(String cliente, LocalDateTime startDateTime, ContractStatus status) {
+    public RentContract(String cliente, LocalDate startDateTime, ContractStatus status) {
         this.cliente = cliente;
         this.startDateTime = startDateTime;
         this.status = status;
