@@ -32,14 +32,13 @@ public class PremiumSubscription extends OnlineSubscription
     //Methods
 
     @Override
-    public Double totalCost() {
+    public Double totalCost()
+    {
 
-        double counter = ChronoUnit.DAYS.between(getActivationDateTime(), expiryDate);
+        double counter = ChronoUnit.MONTHS.between(getActivationDateTime(), expiryDate);
 
-        if (counter >= 30.00)
-        {
-
-        }
+        double res = counter * 30.00;
+        return res;
     }
 
 
