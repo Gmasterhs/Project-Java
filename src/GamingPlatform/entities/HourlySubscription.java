@@ -30,7 +30,7 @@ public class HourlySubscription extends OnlineSubscription
     @Override
     public Double totalCost()
     {
-        if (getStatus() == SubscriptionStatus.SUSPEND)
+        if (getStatus() == SubscriptionStatus.SUSPENDED)
         {
             return (hourContract * 1.50) * 1.20;
         } else {

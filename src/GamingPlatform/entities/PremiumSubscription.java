@@ -35,7 +35,7 @@ public class PremiumSubscription extends OnlineSubscription
     public Double totalCost()
     {
 
-        double counter = ChronoUnit.MONTHS.between(getActivationDateTime(), expiryDate);
+        double counter = ChronoUnit.MONTHS.between(getActivationDateTime().toLocalDate(), expiryDate);
 
         double res = counter * 30.00;
         return res;
