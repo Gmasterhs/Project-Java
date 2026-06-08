@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="feat: benck ok">
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Finish GamingPlatform">
+      <change afterPath="$PROJECT_DIR$/src/BanckAcaunt/Entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BanckAcaunt/Exceptions/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BanckAcaunt/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_TryCatch/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamingPlatform/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamingPlatform/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamingPlatform/entities/HourlySubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamingPlatform/entities/HourlySubscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamingPlatform/entities/PremiumSubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamingPlatform/entities/PremiumSubscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamingPlatform/entities/enums/SubscriptionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamingPlatform/entities/enums/SubscriptionStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779842980969</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Finish GamingPlatform">
+      <option name="closed" value="true" />
+      <created>1779930396562</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1779930396563</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +249,7 @@
     <MESSAGE value="Exercicio Trabalhador finalizado" />
     <MESSAGE value="Exercicio taxa de importação" />
     <MESSAGE value="feat: benck ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: benck ok" />
+    <MESSAGE value="Finish GamingPlatform" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish GamingPlatform" />
   </component>
 </project>
