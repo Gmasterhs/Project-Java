@@ -57,9 +57,16 @@ public class Account
 
     public void Withdraw(Double amount) throws DomainException
     {
+        // Testa se o saque passou do limite estipulado
+        if (amount > withdrawLimit)
+        {
+
+            throw new DomainException ("The amount exceeds witchdrow limit");
+        }
+        // Testa se o saque é maior do que o saldo que você realmente tem
         if (amount > this.balance)
         {
-            throw new DomainException ("Error Inespered");
+            throw new DomainException("Not enough balance");
         }
         this.balance -= amount;
     }
