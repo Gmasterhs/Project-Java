@@ -29,11 +29,6 @@ public class CarRental extends Rental
 
     @Override
     public Double totalVolue() {
-        return 0.0;
-    }
-
-    @Override
-    public long durationInDays() {
-        return 0;
+        return  (durationInDays() * getPriceperDay()) + insurance;
     }
 }

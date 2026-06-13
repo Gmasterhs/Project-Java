@@ -2,6 +2,10 @@ package RentSystem.application.model.entities;
 
 import RentSystem.application.model.enums.RentalType;
 
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
+import java.util.Calendar;
 import java.util.Date;
 
 public abstract class Rental
@@ -66,7 +70,12 @@ public abstract class Rental
 
     //Methods
 
-    public abstract long durationInDays();
+    public  long durationInDays()
+    {
+        LocalDate initial = starDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        LocalDate fim = endDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        return ChronoUnit.HALF_DAYS.between(initial,fim);
+    }
 
     public abstract Double totalVolue();
 

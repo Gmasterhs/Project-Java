@@ -26,4 +26,9 @@ public class EquipmentRental extends Rental {
 
     //Methods
 
+
+    @Override
+    public Double totalVolue() {
+        return  (durationInDays() * getPriceperDay()) + maintenanceFee;
+    }
 }
