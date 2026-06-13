@@ -66,5 +66,13 @@ public abstract class Rental
 
     //Methods
 
+    public abstract long durationInDays();
+
+    public abstract Double totalVolue();
+
+    public String toString()
+    {
+
+    }
 
 }

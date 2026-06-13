@@ -10,8 +10,9 @@ public class CarRental extends Rental
 
     //Constructor
 
-    public CarRental(Integer id, Date starDate, Date endDate, Double priceperDay, RentalType rentalType) {
+    public CarRental(Integer id, Date starDate, Date endDate, Double priceperDay, RentalType rentalType, Double insurance) {
         super(id, starDate, endDate, priceperDay, rentalType);
+        this.insurance = insurance;
     }
 
     //Getters and Setters
@@ -26,4 +27,13 @@ public class CarRental extends Rental
 
     //Methods
 
+    @Override
+    public Double totalVolue() {
+        return 0.0;
+    }
+
+    @Override
+    public long durationInDays() {
+        return 0;
+    }
 }
