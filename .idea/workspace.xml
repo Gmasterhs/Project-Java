@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Finish GamingPlatform">
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/src/RentSystem/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RentSystem/application/model/entities/CarRental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RentSystem/application/model/entities/EquipmentRental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RentSystem/application/model/entities/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RentSystem/application/model/enums/RentalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio_Arquivos/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BanckAcaunt/Entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BanckAcaunt/Entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BanckAcaunt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BanckAcaunt/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779930396563</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Final">
+      <option name="closed" value="true" />
+      <created>1781051237054</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1781051237054</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +260,7 @@
     <MESSAGE value="Exercicio taxa de importação" />
     <MESSAGE value="feat: benck ok" />
     <MESSAGE value="Finish GamingPlatform" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish GamingPlatform" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
 </project>
