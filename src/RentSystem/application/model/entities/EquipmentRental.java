@@ -1,6 +1,7 @@
 package RentSystem.application.model.entities;
 
 import RentSystem.application.model.enums.RentalType;
+import RentSystem.application.model.excepitions.DomainException;
 
 import java.util.Date;
 
@@ -28,7 +29,12 @@ public class EquipmentRental extends Rental {
 
 
     @Override
-    public Double totalVolue() {
+    public Double totalVolue() throws DomainException
+    {
+        if (durationInDays() <0 || getPriceperDay() < 0 )
+        {
+            throw new DomainException ("Duration In Days and Price Per Dau Conot be Negative");
+        }
         return  (durationInDays() * getPriceperDay()) + maintenanceFee;
     }
 }

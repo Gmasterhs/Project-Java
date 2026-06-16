@@ -60,7 +60,6 @@ public class Account
         // Testa se o saque passou do limite estipulado
         if (amount > withdrawLimit)
         {
-
             throw new DomainException ("The amount exceeds witchdrow limit");
         }
         // Testa se o saque é maior do que o saldo que você realmente tem
