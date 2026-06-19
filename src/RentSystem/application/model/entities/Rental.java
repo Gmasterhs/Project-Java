@@ -74,14 +74,22 @@ public abstract class Rental
     {
         LocalDate initial = starDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         LocalDate fim = endDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-        return ChronoUnit.HALF_DAYS.between(initial,fim);
+        return ChronoUnit.DAYS.between(initial,fim);
     }
 
     public abstract Double totalVolue();
 
     public String toString()
     {
+        StringBuilder sb = new StringBuilder();
 
+        sb.append("RECEIPT: ");
+        sb.append("ID: ").append(getId());
+        sb.append(", Type: ").append(getRentalType());
+        sb.append(", Period:").append(getStarDate()).append(" to ").append(getEndDate()).append(" to ").append(durationInDays());
+        sb.append("Total Value: ").append(" $").append(String.format("%.2f",totalVolue()));
+
+        return sb.toString();
     }
 
 }

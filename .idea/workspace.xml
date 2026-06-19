@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Feat: 1.1">
-      <change afterPath="$PROJECT_DIR$/src/RentSystem/application/model/excepitions/DomainException.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Feat: 1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BanckAcaunt/Entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BanckAcaunt/Entities/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RentSystem/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentSystem/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RentSystem/application/model/entities/CarRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentSystem/application/model/entities/CarRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RentSystem/application/model/entities/EquipmentRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentSystem/application/model/entities/EquipmentRental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RentSystem/application/model/entities/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentSystem/application/model/entities/Rental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781319495400</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Feat: 1.2">
+      <option name="closed" value="true" />
+      <created>1781575240327</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1781575240327</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +292,17 @@
     <MESSAGE value="Feat: initial" />
     <MESSAGE value="Feat: 1.0" />
     <MESSAGE value="Feat: 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: 1.1" />
+    <MESSAGE value="Feat: 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: 1.2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.time.temporal.UnsupportedTemporalTypeException" package="java.time.temporal" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
