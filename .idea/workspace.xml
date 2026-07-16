@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Finish RentSysten">
-      <change afterPath="$PROJECT_DIR$/src/exercicio_File/Main.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio File Rited and Whiter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio_File/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio_File/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781832825592</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Exercicio File Rited and Whiter">
+      <option name="closed" value="true" />
+      <created>1782869159894</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1782869159895</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +309,8 @@
     <MESSAGE value="Feat: 1.1" />
     <MESSAGE value="Feat: 1.2" />
     <MESSAGE value="Finish RentSysten" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish RentSysten" />
+    <MESSAGE value="Exercicio File Rited and Whiter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio File Rited and Whiter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
