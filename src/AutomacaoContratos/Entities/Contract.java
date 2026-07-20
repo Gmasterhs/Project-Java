@@ -1,16 +1,18 @@
 package AutomacaoContratos.Entities;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Contract
 {
-    private Integer number;
-    private LocalDate date;
-    private Double Totalvolue;
+    private Integer number; //(número do contrato)
+    private LocalDate date; //(data do contrato)
+    private Double Totalvolue; //(Valro Total do Contrato)
 
     //Dependencia
 
-    Installments installments;
+     List<Installments> list = new ArrayList<>(); //( <-- Pegar o Resultado de Paypal Service e Jogar aqui dentro)
 
     //Gettsrs and Setters
 

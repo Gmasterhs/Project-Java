@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class Installments //Parcelas
 {
-    private LocalDate dueDate;
-    private Double amount;
+    private LocalDate dueDate; //(data de vencimento)
+    private Double amount; //(valor da parcela)
 
     //Getters and Setters
 

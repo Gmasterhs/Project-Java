@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="att">
-      <change afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Installments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Services/ContractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Services/OnlinePaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Services/PaypalService.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Feat: 1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Installments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Installments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Services/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Services/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Services/OnlinePaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Services/OnlinePaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Services/PaypalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Services/PaypalService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,12 +34,12 @@
     &quot;assignee&quot;: &quot;Gmasterhs&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Gmasterhs/Project-Java.git&quot;,
-    &quot;accountId&quot;: &quot;a3579117-9dc3-4ef5-8072-5a7f903773a9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Gmasterhs/Project-Java.git",
+    "accountId": "2d0748df-fdc4-4172-ab7d-b8afbda2b1ae"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
@@ -258,31 +256,7 @@
       <option name="project" value="LOCAL" />
       <updated>1781575240327</updated>
     </task>
-    <task id="LOCAL-00023" summary="Finish RentSysten">
-      <option name="closed" value="true" />
-      <created>1781832825590</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1781832825592</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Exercicio File Rited and Whiter">
-      <option name="closed" value="true" />
-      <created>1782869159894</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1782869159895</updated>
-    </task>
-    <task id="LOCAL-00025" summary="att">
-      <option name="closed" value="true" />
-      <created>1784166769512</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1784166769512</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,10 +296,7 @@
     <MESSAGE value="Feat: 1.0" />
     <MESSAGE value="Feat: 1.1" />
     <MESSAGE value="Feat: 1.2" />
-    <MESSAGE value="Finish RentSysten" />
-    <MESSAGE value="Exercicio File Rited and Whiter" />
-    <MESSAGE value="att" />
-    <option name="LAST_COMMIT_MESSAGE" value="att" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: 1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

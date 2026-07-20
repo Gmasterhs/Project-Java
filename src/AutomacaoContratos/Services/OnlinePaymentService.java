@@ -3,5 +3,5 @@ package AutomacaoContratos.Services;
 public interface OnlinePaymentService
 {
     Double paymentFee (Double amount);
-    Double interest (Double amount, Integer months);
+    Double jurus (Double amount, Integer months);
 }
