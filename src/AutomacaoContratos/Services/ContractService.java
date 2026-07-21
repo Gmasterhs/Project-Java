@@ -1,6 +1,9 @@
 package AutomacaoContratos.Services;
 
 import AutomacaoContratos.Entities.Contract;
+import AutomacaoContratos.Entities.Installments;
+
+import java.time.LocalDate;
 
 public class ContractService
 {
@@ -8,13 +11,16 @@ public class ContractService
 
     public void processContract(Contract contract, Integer momths) //(Vai receber o objet Contract mas os meses direto do Main)
     {
-        double basicVolue = contract.getTotalvolue() / momths;
+        double valorBase = contract.getTotalvolue() / momths;
 
-        for (int i = 0; i < momths; i++)
+        for (int i = 1; i < momths; i++)
         {
-           double taxaDejurus = onlinePaymentService.jurus(basicVolue, i);
+           double valorjurus = onlinePaymentService.jurus(valorBase, i);
+           double valorTaxa = onlinePaymentService.paymentFee(valorBase + valorjurus);
+           double valorFinal = valorBase + valorjurus + valorTaxa;
 
-           double valorFinal = onlinePaymentService.paymentFee(basicVolue + taxaDejurus);
+            LocalDate vencimento = contract.getDate().minusMonths(i);
+            contract.getParcelas().add(new Installments(vencimento, valorFinal));
 
 
         }

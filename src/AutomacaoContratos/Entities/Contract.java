@@ -6,13 +6,13 @@ import java.util.List;
 
 public class Contract
 {
-    private Integer number; //(número do contrato)
-    private LocalDate date; //(data do contrato)
-    private Double Totalvolue; //(Valro Total do Contrato)
+    private Integer number;
+    private LocalDate date;
+    private Double Totalvolue;
 
     //Dependencia
 
-     List<Installments> list = new ArrayList<>(); //( <-- Pegar o Resultado de Paypal Service e Jogar aqui dentro)
+    private List<Installments> parcelas = new ArrayList<>();
 
     //Gettsrs and Setters
 
@@ -39,6 +39,15 @@ public class Contract
     public void setTotalvolue(Double totalvolue) {
         Totalvolue = totalvolue;
     }
+
+    public List<Installments> getParcelas() {
+        return parcelas;
+    }
+
+    public void setParcelas(List<Installments> parcelas) {
+        this.parcelas = parcelas;
+    }
+
 
     //Consturctor
 
