@@ -13,7 +13,7 @@ public class ContractService
     {
         double valorBase = contract.getTotalvolue() / momths;
 
-        for (int i = 1; i < momths; i++)
+        for (int i = 1; i <= momths; i++)
         {
            double valorjurus = onlinePaymentService.jurus(valorBase, i);
            double valorTaxa = onlinePaymentService.paymentFee(valorBase + valorjurus);

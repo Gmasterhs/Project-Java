@@ -57,4 +57,6 @@ public class Contract
         this.date = date;
         Totalvolue = totalvolue;
     }
+
+
 }
