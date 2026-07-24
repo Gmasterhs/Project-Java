@@ -9,7 +9,14 @@ public class ContractService
 {
     private OnlinePaymentService onlinePaymentService;
 
-    public void processContract(Contract contract, Integer momths) //(Vai receber o objet Contract mas os meses direto do Main)
+    //Construtor
+
+
+    public ContractService(OnlinePaymentService onlinePaymentService) {
+        this.onlinePaymentService = onlinePaymentService;
+    }
+
+    public void processContract(Contract contract, Integer momths) //(Vai receber o objet Contract junto dos meses direto do Main)
     {
         double valorBase = contract.getTotalvolue() / momths;
 
@@ -19,7 +26,7 @@ public class ContractService
            double valorTaxa = onlinePaymentService.paymentFee(valorBase + valorjurus);
            double valorFinal = valorBase + valorjurus + valorTaxa;
 
-            LocalDate vencimento = contract.getDate().minusMonths(i);
+            LocalDate vencimento = contract.getDate().plusMonths(i);
             contract.getParcelas().add(new Installments(vencimento, valorFinal));
 
 

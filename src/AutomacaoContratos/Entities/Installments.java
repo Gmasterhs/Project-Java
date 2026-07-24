@@ -33,4 +33,9 @@ public class Installments //Parcelas
     }
 
     //Methods
+
+    public String toString()
+    {
+        return "Valor da Parcela: " + amount + ", Data de Vencimento: " + dueDate;
+    }
 }

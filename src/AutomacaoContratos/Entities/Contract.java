@@ -48,7 +48,6 @@ public class Contract
         this.parcelas = parcelas;
     }
 
-
     //Consturctor
 
     public Contract(Integer number, LocalDate date, Double totalvolue)
@@ -56,6 +55,11 @@ public class Contract
         this.number = number;
         this.date = date;
         Totalvolue = totalvolue;
+    }
+
+    public String toString()
+    {
+        return "Numero: " + getNumber() + ", Date: " + getDate() + ", Valor total: " + getTotalvolue() + ", Parcelas: " +getParcelas();
     }
 
 
