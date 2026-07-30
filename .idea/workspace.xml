@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="att - so falta o main 1.1">
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="finish Automação de Contratos">
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/Enums/StatusLocacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/Fatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/LocacaoVeiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/ServicoLocacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Service/ServicoImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Service/ServicoImpostoBrasil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Installments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Entities/Installments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutomacaoContratos/Services/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomacaoContratos/Services/ContractService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,7 +53,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -296,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784684694137</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="finish Automação de Contratos">
+      <option name="closed" value="true" />
+      <created>1784854874915</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1784854874916</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +325,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercicio Data Hora" />
     <MESSAGE value="Exercicio Data Hora 2" />
     <MESSAGE value="Exercício de Data e Hora finalizad" />
     <MESSAGE value="Exercicio Enum" />
@@ -339,7 +349,8 @@
     <MESSAGE value="att" />
     <MESSAGE value="att - so falta o main" />
     <MESSAGE value="att - so falta o main 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="att - so falta o main 1.1" />
+    <MESSAGE value="finish Automação de Contratos" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish Automação de Contratos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
