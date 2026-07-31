@@ -70,7 +70,7 @@ public class LocacaoVeiculo
         StringBuilder sb = new StringBuilder();
         sb.append("Modelo: ").append(veiculo).append("\n");
         sb.append("Inicio: ").append(inicio).append("\n");
-        sb.append("Fim").append(fatura).append("\n");
+        sb.append("Fim").append(fim).append("\n");
         sb.append("Status: ").append(status).append("\n");
         if (fatura != null) {
             sb.append(fatura); // Pediu a Fatura!
