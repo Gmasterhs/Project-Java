@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="finish Automação de Contratos">
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/Enums/StatusLocacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/Fatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/LocacaoVeiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/ServicoLocacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Service/ServicoImposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Service/ServicoImpostoBrasil.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Ingeção de Dependencia com Interface...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/LocacaoVeiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/LocacaoVeiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784854874916</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Exercicio Ingeção de Dependencia com Interface...">
+      <option name="closed" value="true" />
+      <created>1785373271862</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1785373271862</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercicio Data Hora 2" />
     <MESSAGE value="Exercício de Data e Hora finalizad" />
     <MESSAGE value="Exercicio Enum" />
     <MESSAGE value="Exercicio Worker 01" />
@@ -350,7 +351,8 @@
     <MESSAGE value="att - so falta o main" />
     <MESSAGE value="att - so falta o main 1.1" />
     <MESSAGE value="finish Automação de Contratos" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish Automação de Contratos" />
+    <MESSAGE value="Exercicio Ingeção de Dependencia com Interface..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Ingeção de Dependencia com Interface..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
