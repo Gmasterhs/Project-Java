@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Finalizado">
+      <change afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/BatalhaEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Enum/TipoElemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Golpe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Monstro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gaming_RPG/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/LocacaoVeiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Entities/LocacaoVeiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaLocacaoVeiculo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -317,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785458508401</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Finalizado">
+      <option name="closed" value="true" />
+      <created>1785460251452</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1785460251452</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
