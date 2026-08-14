@@ -19,7 +19,7 @@ public class Monstro
 
     private TipoElemento tipagem;
 
-    List <Golpe> list = new ArrayList<>();
+    List <Golpe> golpeList = new ArrayList<>();
 
     //Construtor
 
@@ -33,7 +33,7 @@ public class Monstro
         this.defesa = defesa;
         this.velocidade = velocidade;
         this.tipagem = tipagem;
-        this.list = list;
+        this.golpeList = list;
     }
 
     //Getters e Setters
@@ -102,15 +102,62 @@ public class Monstro
         this.tipagem = tipagem;
     }
 
-    public List<Golpe> getList() {
-        return list;
+    public List<Golpe> getGolpeList() {
+        return golpeList;
     }
 
-    public void setList(List<Golpe> list) {
-        this.list = list;
+    public void setGolpeList(List<Golpe> golpeList) {
+        this.golpeList = golpeList;
     }
 
     //Methods
+
+    public void aprenderGolpe (Golpe golpe)
+    {
+        if (this.golpeList.size() < 4)
+        {
+            golpeList.add(golpe);
+        }
+    }
+
+    public void danoRecebido (int dano)
+    {
+        hpAtual = hpAtual - dano;
+        if (hpAtual < 0)
+        {
+            hpAtual = 0; // Garante que a vida não fique negativa
+        }
+    }
+
+    public boolean estaVIvo ()
+    {
+        return this.hpAtual > 0; //Estrutura if simplificada retorna true se + e folse se -
+    }
+
+    public void ataque (Monstro alvo, Golpe golpe) {
+
+        if (golpe.gastarPP()) {
+            int danoTotal = ataque + golpe.getDanoBase();// Calcula o ataque total do atacante
+            int danoRecebido = danoTotal - alvo.getDefesa();
+
+            //Sorteio do Critico
+            boolean aCritico = Math.random() < 0.10;
+            double mutiplicadorCritico = aCritico ? 1.5 : 1.0;
+
+            int danoFinal = (int) (danoRecebido * mutiplicadorCritico);
+            danoFinal = Math.max(1, danoFinal);
+
+            if (aCritico) {
+                System.out.println("Acerto Critico!");
+            }
+            alvo.danoRecebido(danoFinal);
+
+        } else {
+            System.out.println("Sem PP para usar esse golpe!");
+
+        }
+
+    }
 
 
 }
