@@ -5,7 +5,7 @@ import Gaming_RPG.Entities.Enum.TipoElemento;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Monstro
+public class Oponente
 {
     private String nomne;
     private int nivel;
@@ -24,7 +24,7 @@ public class Monstro
     //Construtor
 
 
-    public Monstro(String nomne, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade, TipoElemento tipagem, List<Golpe> list) {
+    public Oponente(String nomne, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade, TipoElemento tipagem, List<Golpe> list) {
         this.nomne = nomne;
         this.nivel = nivel;
         this.hpMax = hpMax;
@@ -134,7 +134,7 @@ public class Monstro
         return this.hpAtual > 0; //Estrutura if simplificada retorna true se + e folse se -
     }
 
-    public void ataque (Monstro alvo, Golpe golpe) {
+    public void ataque (Oponente alvo, Golpe golpe) {
 
         if (golpe.gastarPP()) {
             int danoTotal = ataque + golpe.getDanoBase();// Calcula o ataque total do atacante
