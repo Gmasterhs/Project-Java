@@ -4,53 +4,36 @@ import Gaming_RPG.Entities.Enum.TipoElemento;
 
 public class BatalhaEngine
 {
-    private Oponente jogador;
-    private Oponente oponente;
+    private Monstrinho jogador;
+    private Monstrinho oponente;
 
     //Construtor
 
-    public BatalhaEngine(Oponente play, Oponente monstro) {
+    public BatalhaEngine(Monstrinho play, Monstrinho monstro) {
         this.jogador = play;
         this.oponente = monstro;
     }
 
     //Getters and Setters
 
-    public Oponente getJogador() {
+    public Monstrinho getJogador() {
         return jogador;
     }
 
-    public void setJogador(Oponente jogador) {
+    public void setJogador(Monstrinho jogador) {
         this.jogador = jogador;
     }
 
-    public Oponente getOponente() {
+    public Monstrinho getOponente() {
         return oponente;
     }
 
-    public void setOponente(Oponente oponente) {
+    public void setOponente(Monstrinho oponente) {
         this.oponente = oponente;
     }
 
     //Metodos
 
-    public double calularMultiplicador(TipoElemento ataque, TipoElemento tipagem)
-    // Recebe o tipo do elemento do ataque e o tipo do elemento de quem está defendendo, e retorna o multiplicador de dano (2.0, 0.5 ou 1.0).
-    {
-        //vantagens
-        if (ataque == TipoElemento.FOGO && tipagem == TipoElemento.PLANTA) return 2.00;
-        if (ataque == TipoElemento.AGUA && tipagem == TipoElemento.FOGO) return 2.00;
-        if (ataque == TipoElemento.PLANTA && tipagem == TipoElemento.AGUA) return 2.00;
-
-        //Desvantagens
-
-        if (ataque == TipoElemento.FOGO && tipagem == TipoElemento.AGUA) return 0.5;
-        if (ataque == TipoElemento.AGUA && tipagem == TipoElemento.PLANTA) return 0.5;
-        if (ataque == TipoElemento.PLANTA && tipagem == TipoElemento.FOGO) return 0.5;
-
-        //Normal
-        return 1.0;
-    }
 
     public void iniciarbatalha ()
     {
@@ -58,19 +41,32 @@ public class BatalhaEngine
         System.out.println(jogador.getNomne() + " VS " + oponente.getNomne());
 
         // Enquanto AMBOS estiverem vivos a baalha continua
-        while (jogador.estaVIvo() && oponente.estaVIvo())
-        {
-            //Jogador usa o primeiro golpe disponível na lista
-            Golpe golpeJogador = jogador.getGolpeList().getFirst();
+        while (jogador.estaVIvo() && oponente.estaVIvo()) {
+            // Busca golpe disponível do jogador
+            Golpe golpeJogador = jogador.escolherGolpeValido();
 
-            //Jogador ataca o oponente
-            jogador.ataque(oponente, golpeJogador);
+            if (golpeJogador != null) {
+                double multJogador = TipoElemento.calularMultiplicador(golpeJogador.getTipo(), oponente.getTipagem());
+                jogador.ataque(oponente, golpeJogador, multJogador);
+            } else {
+                System.out.println(jogador.getNomne() + " está sem PP em todos os golpes e não pode atacar!");
+            }
 
-            // O oponente so ataca se tiver vida apos o ataque
-            if (oponente.estaVIvo())
-            {
-                Golpe golpeOponente = oponente.getGolpeList().getFirst();
-                oponente.ataque(jogador, golpeOponente);
+            // Busca golpe disponível do oponente
+            if (oponente.estaVIvo()) {
+                Golpe golpeOponente = oponente.escolherGolpeValido();
+                if (golpeOponente != null) {
+                    double multOponente = TipoElemento.calularMultiplicador(golpeOponente.getTipo(), jogador.getTipagem());
+                    oponente.ataque(jogador, golpeOponente, multOponente);
+                } else {
+                    System.out.println(oponente.getNomne() + " está sem PP em todos os golpes e não pode atacar!");
+                }
+            }
+
+            // Trava de segurança: Se AMBOS estiverem sem PP, encerra a batalha em empate para não travar o programa
+            if (jogador.escolherGolpeValido() == null && oponente.escolherGolpeValido() == null) {
+                System.out.println("Ambos os monstrinhos estão sem PP! A batalha terminou em empate.");
+                break;
             }
         }
 

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Classe Mosntro Concluida">
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Fim do back, falta o main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gaming_RPG/Entities/BatalhaEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/BatalhaEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Enum/TipoElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Enum/TipoElemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Monstro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Oponente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Golpe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Golpe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Oponente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Monstrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gaming_RPG/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gaming_RPG/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786675409297</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Fim do back, falta o main">
+      <option name="closed" value="true" />
+      <created>1787276465891</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1787276465891</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +370,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Perto de Concluir Exercicio Worker" />
     <MESSAGE value="Finalizado Worker" />
     <MESSAGE value="Exercicio Composição 2 Cliente" />
     <MESSAGE value="Requerimento Finalizado Falta o Print" />
@@ -385,7 +394,8 @@
     <MESSAGE value="Finalizado" />
     <MESSAGE value="Inicio Gaming RPG" />
     <MESSAGE value="Classe Mosntro Concluida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe Mosntro Concluida" />
+    <MESSAGE value="Fim do back, falta o main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fim do back, falta o main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

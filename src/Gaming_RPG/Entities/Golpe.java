@@ -73,8 +73,9 @@ public class Golpe
         if (ppAtual > 0)
         {
             ppAtual--;
+            return true;
         }
-        return true;
+        return false;
     }
 
 }

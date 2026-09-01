@@ -5,7 +5,7 @@ import Gaming_RPG.Entities.Enum.TipoElemento;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Oponente
+public class Monstrinho
 {
     private String nomne;
     private int nivel;
@@ -24,7 +24,7 @@ public class Oponente
     //Construtor
 
 
-    public Oponente(String nomne, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade, TipoElemento tipagem, List<Golpe> list) {
+    public Monstrinho(String nomne, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade, TipoElemento tipagem) {
         this.nomne = nomne;
         this.nivel = nivel;
         this.hpMax = hpMax;
@@ -33,7 +33,7 @@ public class Oponente
         this.defesa = defesa;
         this.velocidade = velocidade;
         this.tipagem = tipagem;
-        this.golpeList = list;
+        this.golpeList = new ArrayList<>();
     }
 
     //Getters e Setters
@@ -134,7 +134,8 @@ public class Oponente
         return this.hpAtual > 0; //Estrutura if simplificada retorna true se + e folse se -
     }
 
-    public void ataque (Oponente alvo, Golpe golpe) {
+    public void ataque (Monstrinho alvo, Golpe golpe, double multiplicadorElemento)
+    {
 
         if (golpe.gastarPP()) {
             int danoTotal = ataque + golpe.getDanoBase();// Calcula o ataque total do atacante
@@ -144,7 +145,8 @@ public class Oponente
             boolean aCritico = Math.random() < 0.10;
             double mutiplicadorCritico = aCritico ? 1.5 : 1.0;
 
-            int danoFinal = (int) (danoRecebido * mutiplicadorCritico);
+            //Aplica o Multiplicador
+            int danoFinal = (int) (danoRecebido * mutiplicadorCritico * multiplicadorElemento);
             danoFinal = Math.max(1, danoFinal);
 
             if (aCritico) {
@@ -157,6 +159,16 @@ public class Oponente
 
         }
 
+    }
+
+    public Golpe escolherGolpeValido()
+    {
+        for (Golpe g : golpeList) {
+            if (g.getPpAtual() > 0) {
+                return g;
+            }
+        }
+        return null; // Nenhum golpe tem PP restante
     }
 
 
