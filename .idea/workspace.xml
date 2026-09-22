@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Resolver o Problema do Empate!">
-      <change afterPath="$PROJECT_DIR$/src/TipoGenerico/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TipoGenerico/PrintService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exemplo de Generics 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +34,9 @@
     &quot;accountId&quot;: &quot;a3579117-9dc3-4ef5-8072-5a7f903773a9&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
@@ -357,7 +356,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788301809672</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Exemplo de Generics">
+      <option name="closed" value="true" />
+      <created>1790037823519</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1790037823519</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Exemplo de Generics 1">
+      <option name="closed" value="true" />
+      <created>1790037882281</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1790037882281</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,8 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercicio Composição 2 Cliente" />
-    <MESSAGE value="Requerimento Finalizado Falta o Print" />
     <MESSAGE value="Item Pedido Finalizado" />
     <MESSAGE value="Exercicio Trabalhador" />
     <MESSAGE value="Exercicio Trabalhador finalizado" />
@@ -400,7 +413,9 @@
     <MESSAGE value="Classe Mosntro Concluida" />
     <MESSAGE value="Fim do back, falta o main" />
     <MESSAGE value="Resolver o Problema do Empate!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolver o Problema do Empate!" />
+    <MESSAGE value="Exemplo de Generics" />
+    <MESSAGE value="Exemplo de Generics 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemplo de Generics 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
