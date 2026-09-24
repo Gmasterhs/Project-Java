@@ -8,7 +8,9 @@ public class Main
     {
         Scanner sc = new Scanner(System.in);
 
-        PrintService ps = new PrintService();
+        PrintService <Integer> ps = new PrintService<Integer>(); //Posso colcoar qualquer tip ode variavel pois a Classe PrintService é do tipo T
+
+        System.out.println("Digite um numero: ");
         int n =  sc.nextInt();
 
         for (int i = 0; i < n; i++)
@@ -19,6 +21,8 @@ public class Main
 
         ps.print();
         System.out.println("Primeiro: " + ps.first());
+
+        sc.close();
 
 
     }
