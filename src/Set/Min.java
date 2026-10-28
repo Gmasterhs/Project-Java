@@ -6,8 +6,8 @@ public class Min
 {
     public static void main(String[] args)
     {
-        Set <String> set1 = new HashSet<>(); //Mais Rapido, não ordenado
-        Set <String> set2 = new TreeSet<>(); //Main lento, ordenado pelo
+        Set <String> set1 = new HashSet<>(); //Mais Rapido, não ordenado, armazena os elementos numa tabela Hesh
+        Set <String> set2 = new TreeSet<>(); //Main lento, ordenado numa arvore rubro negra
         Set <String> set3 = new LinkedHashSet<>(); // Velocidade Intermediaria, na ordem que sã oadicionados
 
         set1.add("a");
