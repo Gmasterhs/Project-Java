@@ -3,6 +3,7 @@ package BanckAcaunt;
 import BanckAcaunt.Entities.Account;
 import BanckAcaunt.Exceptions.DomainException;
 
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -14,7 +15,6 @@ public class Main
 
        Locale.setDefault(Locale.US);
        Scanner sc = new Scanner(System.in);
-
 
        try
        {
