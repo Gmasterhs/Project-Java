@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="att exercicio Map">
-      <change afterPath="$PROJECT_DIR$/src/ComparatorFuncional/Entities/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorFuncional/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorFuncional/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Predicate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Predicate/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Predicate/ProductPredicate.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Resolver o Problema do Empate!">
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_Loja/Axiliar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_Loja/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_Loja/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Enum/TipoElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gaming_RPG/Entities/Enum/TipoElemento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +37,9 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Gmasterhs/Project-Java.git&quot;,
-    &quot;accountId&quot;: &quot;a3579117-9dc3-4ef5-8072-5a7f903773a9&quot;
+    &quot;accountId&quot;: &quot;2d0748df-fdc4-4172-ab7d-b8afbda2b1ae&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
@@ -60,7 +54,6 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Min.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -78,6 +71,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_Loja.Main" />
+      <module name="Teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio_Loja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="" />
@@ -366,63 +379,7 @@
       <option name="project" value="LOCAL" />
       <updated>1788301809672</updated>
     </task>
-    <task id="LOCAL-00036" summary="Exemplo de Generics">
-      <option name="closed" value="true" />
-      <created>1790037823519</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1790037823519</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Exemplo de Generics 1">
-      <option name="closed" value="true" />
-      <created>1790037882281</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1790037882281</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Exemplo de Generics">
-      <option name="closed" value="true" />
-      <created>1790114112524</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1790114112524</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Exemplo de Generics">
-      <option name="closed" value="true" />
-      <created>1790285884976</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1790285884977</updated>
-    </task>
-    <task id="LOCAL-00040" summary="att Set">
-      <option name="closed" value="true" />
-      <created>1792715153996</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1792715153996</updated>
-    </task>
-    <task id="LOCAL-00041" summary="att exercicio Set">
-      <option name="closed" value="true" />
-      <created>1793223142466</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1793223142466</updated>
-    </task>
-    <task id="LOCAL-00042" summary="att exercicio Map">
-      <option name="closed" value="true" />
-      <created>1793716019253</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1793716019253</updated>
-    </task>
-    <option name="localTasksCounter" value="43" />
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +397,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercicio Composição 2 Cliente" />
+    <MESSAGE value="Requerimento Finalizado Falta o Print" />
+    <MESSAGE value="Item Pedido Finalizado" />
+    <MESSAGE value="Exercicio Trabalhador" />
+    <MESSAGE value="Exercicio Trabalhador finalizado" />
     <MESSAGE value="Exercicio taxa de importação" />
     <MESSAGE value="feat: benck ok" />
     <MESSAGE value="Finish GamingPlatform" />
@@ -460,12 +422,7 @@
     <MESSAGE value="Classe Mosntro Concluida" />
     <MESSAGE value="Fim do back, falta o main" />
     <MESSAGE value="Resolver o Problema do Empate!" />
-    <MESSAGE value="Exemplo de Generics 1" />
-    <MESSAGE value="Exemplo de Generics" />
-    <MESSAGE value="att Set" />
-    <MESSAGE value="att exercicio Set" />
-    <MESSAGE value="att exercicio Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="att exercicio Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolver o Problema do Empate!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
