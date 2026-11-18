@@ -18,7 +18,7 @@ public class Main
         double min = 100.0;
 
         //list.removeIf(product -> product.getPrice() >= 100.00); pode resolver assim ou no modelo abaixo
-        //list.removeIf(new ProductPredicate());
+        //list.removeIf(new ProductPredicate()); implementando a interface productPredicate
 
         Predicate<Product> pred = p -> p.getPrice() >= min; //Aqui podese aceitar valro parametrizado ou digitado pelo usuario
         list.removeIf(pred);
