@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="att exercicio Map">
-      <change afterPath="$PROJECT_DIR$/src/Exercicio_Contribuinte2/Entidades/Contrinuinte.java" afterDir="false" />
+    <list default="true" id="2197a846-ebec-4d18-9ce7-a08cbd509558" name="Changes" comment="Exercicio Prog Funcional 01">
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_Contribuinte2/Entidades/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio_Contribuinte2/Entidades/PessoaJuridica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio_Contribuinte2/Entidades/Contrinuinte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio_Contribuinte2/Entidades/Contrinuinte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio_Contribuinte2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio_Contribuinte2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793716019253</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Exercicio Prog Funcional 01">
+      <option name="closed" value="true" />
+      <created>1794968537751</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1794968537751</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercicio taxa de importação" />
     <MESSAGE value="feat: benck ok" />
     <MESSAGE value="Finish GamingPlatform" />
     <MESSAGE value="Final" />
@@ -460,7 +470,8 @@
     <MESSAGE value="att Set" />
     <MESSAGE value="att exercicio Set" />
     <MESSAGE value="att exercicio Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="att exercicio Map" />
+    <MESSAGE value="Exercicio Prog Funcional 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio Prog Funcional 01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
