@@ -3,12 +3,12 @@ package Exercicio_Contribuinte2.Entidades;
 public class PessoaJuridica extends Contrinuinte
 {
 
-    private int funcionario;
-    private String especificacao;
+    private Double funcionario;
+    private char especificacao;
 
     //Construtor
 
-    public PessoaJuridica(String nome, Double renda, int funcionario, String especificacao) {
+    public PessoaJuridica(String nome, Double renda, Double funcionario, char especificacao) {
         super(nome, renda);
         this.funcionario = funcionario;
         this.especificacao = especificacao;
@@ -16,19 +16,19 @@ public class PessoaJuridica extends Contrinuinte
 
     //Gettsrs e Setters
 
-    public int getFuncionario() {
+    public Double getFuncionario() {
         return funcionario;
     }
 
-    public void setFuncionario(int funcionario) {
+    public void setFuncionario(Double funcionario) {
         this.funcionario = funcionario;
     }
 
-    public String getEspecificacao() {
+    public char getEspecificacao() {
         return especificacao;
     }
 
-    public void setEspecificacao(String especificacao) {
+    public void setEspecificacao(char especificacao) {
         this.especificacao = especificacao;
     }
 

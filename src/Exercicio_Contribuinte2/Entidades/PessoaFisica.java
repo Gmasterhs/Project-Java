@@ -2,12 +2,12 @@ package Exercicio_Contribuinte2.Entidades;
 
 public class PessoaFisica extends Contrinuinte
 {
-    String especificacao;
+    char especificacao;
     double gastoSaude;
 
     // Construtor
 
-    public PessoaFisica(String nome, Double renda, String especificacao, double gastoSaude) {
+    public PessoaFisica(String nome, Double renda, char especificacao, double gastoSaude) {
         super(nome, renda);
         this.especificacao = especificacao;
         this.gastoSaude = gastoSaude;
@@ -15,11 +15,11 @@ public class PessoaFisica extends Contrinuinte
 
     //Setters e Getters
 
-    public String getEspecificacao() {
+    public char getEspecificacao() {
         return especificacao;
     }
 
-    public void setEspecificacao(String especificacao) {
+    public void setEspecificacao(char especificacao) {
         this.especificacao = especificacao;
     }
 

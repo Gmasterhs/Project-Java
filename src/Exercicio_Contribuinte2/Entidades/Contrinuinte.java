@@ -43,4 +43,11 @@ public abstract class Contrinuinte
     //Methods
 
     public abstract Double imposto();
+
+    public int comperTo (Contrinuinte outro)
+    {
+        return getNome().compareTo(outro.getNome());
+    }
+
 }
+

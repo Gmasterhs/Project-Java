@@ -1,6 +1,8 @@
 package Exercicio_Contribuinte2;
 
 import Exercicio_Contribuinte2.Entidades.Contrinuinte;
+import Exercicio_Contribuinte2.Entidades.PessoaFisica;
+import Exercicio_Contribuinte2.Entidades.PessoaJuridica;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -23,13 +25,31 @@ public class Main
         {
             List<Contrinuinte> lista = new ArrayList<>();
 
-            while (br.readLine() != null)
+            String linha = br.readLine();
+            while (linha != null)
             {
-                String[] linha = br.readLine().split(",");
-
+                String[] listinha  = linha.split(",");
+                char tipodaPessoa = listinha[0].charAt(0);
+                String nomePessoa = listinha[1];
+                double rendaAnual  = Double.parseDouble(listinha[2]);
+                double gastoOufuncionario  = Double.parseDouble(listinha[3]);
+                if (tipodaPessoa == 'F')
+                {
+                    PessoaFisica pf = new PessoaFisica(nomePessoa, rendaAnual,tipodaPessoa, gastoOufuncionario);
+                    lista.add(pf);
+                }
+                if (tipodaPessoa == 'J')
+                {
+                    PessoaJuridica pj = new PessoaJuridica(nomePessoa, rendaAnual,gastoOufuncionario, tipodaPessoa);
+                    lista.add(pj);
+                }
+                linha = br.readLine();
             }
 
+            lista.stream().sorted(Contrinuinte::comperTo).forEach(System.out::println);
 
+
+            sc.close();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
